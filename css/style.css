@@ -64,10 +64,6 @@ table {
     color: #0BCEAF;
   }
   
-
-
-
-
   #contact {
     background-color: #1ea89633;
     background-image: url("../Vector.svg");
@@ -96,11 +92,27 @@ table {
    .icon-top{
     height: 80px;
    }
+   
     
     .laptop{
         height: 400px;
         width: 400px;
     }
+
+    .progress {
+        border-radius: 10px;
+      }
+      
+      .progress .progress-bar {
+        width: 0px;
+        border-radius: 10px;
+        transition: 2s;
+      } 
+
+      .my-image{
+        height: 450px;
+        width: 450px;
+      }
 
    footer {
     background-color: #4c5454;
@@ -129,4 +141,9 @@ table {
       padding: 10px 0;
     }
   }
+
+  @media screen and (max-width: 350px) {
+    .my-image {
+ }
+   }
 
