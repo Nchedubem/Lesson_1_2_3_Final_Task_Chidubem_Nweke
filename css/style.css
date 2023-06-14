@@ -51,3 +51,79 @@ table {
 
 
 /* Write your css below here */
+
+nav {
+    min-height: 100px;
+}
+
+#hero {
+    background-color: #080808;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects,
+#contact,
+#hero {
+    margin-top: 80px;
+}
+
+.img-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.btn a{
+	color: #f1f1f1;
+}
+
+.btn a:hover{
+	color: #f1f1f1;
+	text-decoration: none;
+	transform: scale(1.1);
+}
+
+a.fa {
+    font-size: 30px;
+}
+
+a.fa:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+a.fa-whatsapp {
+    color: #25d366;
+}
+
+a.fa-github {
+    color: #24292f;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (width <= 767px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+
