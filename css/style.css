@@ -51,79 +51,82 @@ table {
 
 
 /* Write your css below here */
+  
+  .navbar-light .navbar-nav .nav-link {
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #0BCEAF;
+  }
+  
 
-nav {
-    min-height: 100px;
-}
 
-#hero {
-    background-color: #080808;
-    color: #fff;
+
+
+  #contact {
+    background-color: #1ea89633;
+    background-image: url("../Vector.svg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
     display: flex;
+    background-attachment: inherit;
     align-items: center;
-    justify-content: center;
-}
-
-#projects,
-#contact,
-#hero {
-    margin-top: 80px;
-}
-
-.img-container {
-    width: 70%;
-    margin: auto;
-    margin-top: 50px;
-}
-
-.btn a{
-	color: #f1f1f1;
-}
-
-.btn a:hover{
-	color: #f1f1f1;
-	text-decoration: none;
-	transform: scale(1.1);
-}
-
-a.fa {
-    font-size: 30px;
-}
-
-a.fa:hover {
-    text-decoration: none;
-    transform: scale(1.1);
-}
-
-a.fa-whatsapp {
-    color: #25d366;
-}
-
-a.fa-github {
-    color: #24292f;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-@media (width <= 767px) {
-    .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
+    padding: 5%;
+   }
+   
+   #contact h3 {
+    font-family: "Balsamiq Sans";
+    font-weight: 700;
+    font-size: 24px;
+   }
+   #contact p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+   }
+   #contact .btn.btn-brand {
+    width: 100%;
+   }
+   .icon-top{
+    height: 80px;
+   }
+    
+    .laptop{
+        height: 400px;
+        width: 400px;
     }
-}
 
+   footer {
+    background-color: #4c5454;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   footer .social-icons a {
+    /* color: #fff; */
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-top: 1.5em;
+   }
+   footer .social-icons a:hover {
+    color: #ff715b;
+   }
+
+   @media screen and (max-width: 990px) {
+    .message-img {
+    display: none;
+     }
+   }
+
+  @media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+      padding: 10px 0;
+    }
+  }
 
