@@ -51,3 +51,99 @@ table {
 
 
 /* Write your css below here */
+  
+  .navbar-light .navbar-nav .nav-link {
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #0BCEAF;
+  }
+  
+  #contact {
+    background-color: #1ea89633;
+    background-image: url("../Vector.svg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+    display: flex;
+    background-attachment: inherit;
+    align-items: center;
+    padding: 5%;
+   }
+   
+   #contact h3 {
+    font-family: "Balsamiq Sans";
+    font-weight: 700;
+    font-size: 24px;
+   }
+   #contact p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+   }
+   #contact .btn.btn-brand {
+    width: 100%;
+   }
+   .icon-top{
+    height: 80px;
+   }
+   
+    
+    .laptop{
+        height: 400px;
+        width: 400px;
+    }
+
+    .progress {
+        border-radius: 10px;
+      }
+      
+      .progress .progress-bar {
+        width: 0px;
+        border-radius: 10px;
+        transition: 2s;
+      } 
+
+      .my-image{
+        height: 450px;
+        width: 450px;
+      }
+
+   footer {
+    background-color: #4c5454;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   footer .social-icons a {
+    /* color: #fff; */
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-top: 1.5em;
+   }
+   footer .social-icons a:hover {
+    color: #ff715b;
+   }
+
+   @media screen and (max-width: 990px) {
+    .message-img {
+    display: none;
+     }
+   }
+
+  @media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+      padding: 10px 0;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .my-image {
+ }
+   }
+
